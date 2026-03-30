@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Who We Are: Voices from Our Communities</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+html { scroll-behavior: smooth; }
+
+/* Animation */
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+</style>
+</head>
+
+<body class="bg-gray-50 font-sans text-gray-800">
+
+<!-- Navigation -->
+<nav class="fixed w-full bg-gray-900 text-white z-50 shadow-lg">
+  <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="font-bold text-lg">Voices from Our Communities
+
+    </h1>
+
+    <div class="hidden md:flex gap-6">
+      <a href="#About the Cities" class="hover:text-gray-300">About the Cities</a>
+      <a href="#DiversityAndArt" class="hover:text-gray-300">Diversity & Art</a>
+      <a href="#MediaPortrayalVsReality" class="hover:text-gray-300">Media Portrayal vs Reality</a>
+      <a href="#Podcast" class="hover:text-gray-300">Podcast</a>
+      <a href="#carousel" class="hover:text-gray-300">Photos</a>
+    </div>
+
+    <button id="menu-btn" class="md:hidden">☰</button>
+  </div>
+
+  <div id="mobile-menu" class="hidden md:hidden bg-gray-800 px-6 pb-4">
+    <a href="#About the Cities" class="block py-2">About the Cities</a>
+    <a href="#DiversityAndArt" class="block py-2">Diversity & Art</a>
+    <a href="#MediaPortrayalVsReality" class="block py-2">Media Portrayal vs Reality</a>
+    <a href="#Podcast" class="block py-2">Podcast</a>
+    <a href="#carousel" class="block py-2">Photos</a>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="relative bg-gray-900 text-white h-screen flex items-center justify-center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/HamiltonOntarioSkylineC.JPG"
+       class="absolute inset-0 w-full h-full object-cover opacity-60">
+  <div class="absolute inset-0 bg-black opacity-50"></div>
+
+  <div class="relative z-10 text-center px-4 fade-up">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">
+      Who We Are: Voices from Our Communities
+    </h1>
+    <p class="text-xl md:text-2xl max-w-2xl mx-auto">
+      Explore the communities, culture, and stories of Hamilton, Canada, and Târgoviște, Romania. 
+    </p>
+  </div>
+</section>
+
+<!-- About the Cities -->
+<section id="About the Cities" class="py-20 bg-white fade-up">
+  <div class="container mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center gap-8">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Hamilton_Ontario_Plant_c1907_LOC_6a23357u.jpg"
+         class="w-full md:w-1/2 rounded-lg shadow-lg">
+    <div>
+      <h2 class="text-3xl font-bold mb-4">Hamilton</h2>
+      <p>
+        Hamilton is a city with a rich industrial history, historically known as the “Steel Capital” of Canada. Its economy has long been centered on manufacturing and service industries, shaping a strong working-class identity. Today, Hamilton is a diverse and multicultural city, home to numerous universities and colleges that contribute to a vibrant student community. The city is known for its parks, cultural festivals, local events, and active community life, offering a mix of urban energy and natural beauty. With its larger population, Hamilton has a dynamic, bustling atmosphere where industry, education, and culture intersect.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="About the Cities" class="py-20 bg-white fade-up">
+  <div class="container mx-auto px-6 md:px-12 flex flex-col items-center gap-6">
+    
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Panorama_of_Targoviste_City.JPG/1920px-Panorama_of_Targoviste_City.JPG"
+         class="w-full md:w-2/3 rounded-lg shadow-lg">
+    <div>
+      <h2 class="text-3xl font-bold mb-4">Târgoviște</h2>
+      <p>
+         Târgoviște is a city steeped in history, once serving as the medieval capital of Wallachia. Its historic sites, such as the Princely Court, reflect its rich cultural heritage. Compared to Hamilton, Târgoviște is smaller, with a quieter, close-knit community where local traditions play an important role in everyday life. The city hosts universities and colleges, supporting a thoughtful and engaged student community. Life in Târgoviște is more relaxed, with parks, local events, and cultural activities that emphasize heritage and local connections. Its economy is smaller and more locally focused, reflecting the city’s intimate scale and historical identity.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Diversity & Art-->
+<section id="DiversityAndArt" class="py-20 bg-gray-100 text-center fade-up">
+  <div class="container mx-auto px-6 md:px-12">
+    <h2 class="text-3xl font-bold mb-6">Diversity & Art</h2>
+    <p class="max-w-3xl mx-auto mb-8">
+      Hamilton is celebrated for its multicultural population, which brings together a wide variety of cultural influences, traditions, and artistic expressions. The city hosts numerous festivals, art exhibitions, and street art initiatives that reflect its diverse communities. Local theaters, galleries, and music venues contribute to a vibrant creative scene, where both residents and students participate in cultural life.
+
+Târgoviște, on the other hand, highlights its local traditions and historical art forms. Folk art, historical architecture, and cultural heritage are central to the city’s identity, with local artists and community programs preserving and celebrating these traditions. While smaller in scale than Hamilton, Târgoviște fosters creativity that is deeply connected to its historical roots and communal lifestyle. Both cities demonstrate that art and culture are key expressions of community identity, even when the scale and style differ.
+    
+<div class="grid md:grid-cols-2 gap-10">
+
+  <div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/RO_DB_-_Muzeul_de_Art%C4%83_Targoviste_%28fosta_Prefectura_jude%C8%9Bean%C4%83%29.jpg"
+         class="w-full h-72 object-cover rounded-lg shadow-lg mb-4">
+    <p class="text-sm text-gray-600">
+      The Art Museum of Târgoviște highlights traditional Romanian art and cultural heritage.
+    </p>
+  </div>
+
+  <div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Art_Gallery_of_Hamilton_%2823583539318%29.jpg/1920px-Art_Gallery_of_Hamilton_%2823583539318%29.jpg"
+         class="w-full h-72 object-cover rounded-lg shadow-lg mb-4">
+    <p class="text-sm text-gray-600">
+      The Art Gallery of Hamilton reflects a diverse and modern creative community.
+    </p>
+  </div>
+
+</div>
+
+</p>
+  </div>
+</section>
+
+<!-- Media Portrayal vs Reality -->
+<section id="MediaPortrayalVsReality" class="py-20 bg-white text-center fade-up">
+  <div class="container mx-auto px-6 md:px-12">
+    <h2 class="text-3xl font-bold mb-6">Media Portrayal vs Reality</h2>
+    <p class="max-w-3xl mx-auto mb-8">
+     Media representations often tell only part of the story for both cities. Hamilton is sometimes portrayed as struggling with industrial decline or urban challenges, but in reality, it is a city full of cultural vibrancy, educational opportunities, and thriving community life. The arts, festivals, and student engagement reveal a dynamic side that contrasts with negative stereotypes.
+
+Similarly, Târgoviște is often depicted as a quiet, historical city, focused mainly on its past. While history is an essential part of its identity, the city today also has a lively local community, with events, educational programs, and daily life that go beyond its historical image. In both cases, the lived experience of residents is richer and more nuanced than what media portrayals suggest, highlighting the importance of hearing the voices of the community themselves.
+      </p>
+  </div>
+</section>
+
+<!-- Podcast --> 
+<section id="Podcast" class="py-20 bg-gray-900 text-white fade-up">
+  <div class="container mx-auto px-6 md:px-12 text-center">
+    
+    <h2 class="text-3xl font-bold mb-12">Listen to Our Podcast Episodes</h2>
+
+    <!-- Podcast 1 -->
+    <div class="bg-gray-800 rounded-2xl shadow-lg p-6 mb-10 max-w-xl mx-auto">
+
+      <h3 class="text-xl font-semibold mb-2">Hamilton and Târgoviște</h3>
+      <p class="text-gray-400 mb-4">Community Voices Series</p>
+
+<video controls class="w-full mt-4 rounded-xl shadow-md">
+  <source src="https://www.dropbox.com/scl/fi/f2i66757x3xobcur5ur4v/Shared-Podcast-Final.mp4?rlkey=8oagranw8fl077prlqc3sqlif&st=fznudkdp&raw=1" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+</audio>
+    <!-- Podcast 2 -->
+    <div class="bg-gray-800 rounded-2xl shadow-lg p-6 max-w-xl mx-auto">
+
+      <h3 class="text-xl font-semibold mb-2">Hamilton Unfiltered</h3>
+      <p class="text-gray-400 mb-4">Local Voices & Stories</p>
+
+      <video controls class="w-full mt-4 rounded-xl shadow-md">
+  <source src="https://www.dropbox.com/scl/fi/nq42ej8sl9dp4w6bz4ds1/Hamilton-FInal-Podcast.mp4?rlkey=tbphsruci2qclaha0r6pz5i1f&st=wrzxuf6q&raw=1" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+  </div>
+</section>
+
+</div>
+
+</p>
+  </div>
+</section>
+
+<!-- Carousel -->
+<section id="carousel" class="py-0 bg-black fade-up">
+  <div class="w-full mx-auto overflow-hidden">
+
+    <div id="carousel-track" class="flex transition-transform duration-700">
+
+      <img src="images/1.png" class="w-full h-screen object-cover flex-shrink-0">
+      <img src="images/2.png" class="w-full h-screen object-cover flex-shrink-0">
+      <img src="images/3.png" class="w-full h-screen object-cover flex-shrink-0">
+      <img src="images/4.png" class="w-full h-screen object-cover flex-shrink-0">
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-6 text-center">
+  <p>© 2026 Who We Are: Voices from Our Communities | Hamilton, Ontario and Târgoviște, Romania</p>
+</footer>
+
+<script>
+// Mobile menu
+document.getElementById('menu-btn').addEventListener('click', function() {
+  document.getElementById('mobile-menu').classList.toggle('hidden');
+});
+
+// Scroll animation
+const faders = document.querySelectorAll('.fade-up');
+const appearOptions = { threshold: 0.2 };
+
+const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    entry.target.classList.add('show');
+    observer.unobserve(entry.target);
+  });
+}, appearOptions);
+
+faders.forEach(fader => appearOnScroll.observe(fader));
+
+// Carousel
+let index = 0;
+const carousel = document.getElementById('carousel-track');
+const slides = carousel.children.length;
+
+setInterval(() => {
+  index = (index + 1) % slides;
+  carousel.style.transform = `translateX(-${index * 100}%)`;
+}, 3000);
+</script>
+
+</body>
+</html>
